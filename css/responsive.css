@@ -1,0 +1,70 @@
+@media (max-width:1570px) {
+  .barcode {
+      position: absolute;
+      left: 50px;
+      top: 700px;
+      height: 729px;
+      float: right;
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section1 h1{
+  left: 50px;
+
+  }
+  .section1 h2{
+
+        left: 50px;
+
+  }
+  hr{
+        position: absolute;
+        width: 500px;
+        top: 350px;
+        left: 150px;
+  }
+  .text_info{
+    display: inline-block;
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    text-align: justify;
+    left: 10px;
+    top: 450px;
+    margin-left: 60px;
+  }
+}
+@media (max-width:970px) {
+  .section1 h1{
+  left: 30px;
+font-size: 40px;
+  }
+  .section1 h2{
+   font-size: 20px;
+  left: 0px;
+
+  }
+  hr{
+        position: absolute;
+        width: 300px;
+        top: 350px;
+        left: 50px;
+  }
+  .text_info{
+    width: 400px;
+    margin-left: 0px;
+  }
+  .barcode {
+      position: absolute;
+      left: 10px;
+      top: 750px;
+      height: 729px;
+      width: 400px;
+      float: right;
+  }
+  .resul_barcode p{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: 0;
+}
+html{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+}
+a{
+  text-decoration: none;
+  color: #eee;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.section1 h1{
+      font-size: 60px;
+      position: absolute;
+      top: 90px;
+      left: 100px;
+
+}
+.section1 h2{
+      font-size: 40px;
+      position: absolute;
+      top: 250px;
+      left: 5px;
+
+}
+hr{
+      position: absolute;
+      width: 500px;
+      top: 350px;
+      left: 150px;
+}
+.text_info{
+  display: inline-block;
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  text-align: justify;
+  left: 10px;
+  top: 450px;
+  margin-left: 60px;
+}
+.text_info p{
+line-height: 44px;
+}
+.section1 span{
+color: red;
+}
+
+.section2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F3F3;
+  position: relative;
+
+}
+
+.barcode{
+position: absolute;
+width: 700px;
+left: 800px;
+top: 60px;
+height: 729px;
+
+}
+.barcode_test button{
+  font-size: 30px;
+  color: white;
+}
+.barcode_test {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 15px 15px 0px 0px;
+}
+.barcode_test button{
+width: 300px;
+background-color: #bd6a85;
+height: 40px;
+border: 0;
+border-radius: 15px;
+}
+.barcode_test input {
+	width: 300px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #F1EEE6;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #F1EEE6;
+	outline: none;
+	background: transparent;
+}
+.barcode_test img {
+	width: 300px;
+
+}
+.barcode_test p {
+	width: 300px;
+letter-spacing: 8px;
+}
+.barcode_result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(  #9198e5 , #e66465);
+  height: 364px;
+}
+.resul_barcode p{
+  font-size: 50px;
+  background-color: #FAFAFA;
+  border-radius: 15px;
+	background:#FAFAFA;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #FAFAFA,
+							 0 0 25px #FAFAFA,
+							 0 0 50px #FAFAFA,
+							 0 0 100px #FAFAFA;
+}
+.resul_barcode span{
+  color: red;
+}
+}
